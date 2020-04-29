@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/editText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:editable="false"
+          android:gravity="center"
+          android:inputType="none"
+          android:textSize="20sp"
+          android:shadowColor="@color/text_shadow"
+          android:shadowDx="1"
+          android:shadowDy="1"
+          android:shadowRadius="2"
+          android:text=""
+          android:textIsSelectable="false"
+          android:visibility="visible"/>

@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 android:id="@+id/main_content"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 android:fitsSystemWindows="true"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30sp"
+        android:layout_weight="1"
+        android:background="@drawable/border_alpha_gold"
+        android:padding="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_page_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="10sp"
+                android:gravity="center"
+
+                android:text="1"/>
+
+
+            <EditText
+                android:id="@+id/et_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+
+                android:text="ٹیکسٹ"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+
+            <EditText
+                android:id="@+id/et_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+
+            <EditText
+                android:id="@+id/et_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+
+            <EditText
+                android:id="@+id/et_45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+
+            <EditText
+                android:id="@+id/et_47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+            <EditText
+                android:id="@+id/et_86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+
+                android:text="Hello World!"
+                android:textIsSelectable="false"
+                android:visibility="gone"
+
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/material_design_android_floating_action_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            app:menu_animationDelayPerItem="55"
+            app:menu_backgroundColor="@android:color/transparent"
+            app:menu_buttonSpacing="0dp"
+            app:menu_colorNormal="@color/colorPrimary"
+            app:menu_colorPressed="@color/colorPrimary"
+            app:menu_colorRipple="#99d4d4d4"
+            app:menu_fab_label="سہولیات"
+            app:menu_fab_size="mini"
+            app:menu_icon="@drawable/fab_add"
+            app:menu_labels_colorNormal="@android:color/holo_blue_dark"
+            app:menu_labels_colorPressed="#444"
+            app:menu_labels_colorRipple="#66efecec"
+            app:menu_labels_cornerRadius="3dp"
+            app:menu_labels_ellipsize="none"
+            app:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+            app:menu_labels_margin="0dp"
+            app:menu_labels_maxLines="-1"
+            app:menu_labels_padding="8dp"
+            app:menu_labels_position="left"
+            app:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+            app:menu_labels_showShadow="true"
+            app:menu_labels_singleLine="false"
+            app:menu_labels_textColor="#f2f1f1"
+            app:menu_labels_textSize="15sp"
+            app:menu_openDirection="up"
+
+            app:menu_shadowRadius="4dp"
+            app:menu_shadowXOffset="1dp"
+            app:menu_shadowYOffset="4dp"
+
+            app:menu_showShadow="true">
+
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fbtn_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:fab_label="لفظ تلاش کریں"
+                app:fab_size="mini"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fbtn_goto_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:fab_label="کسی صفحے پر جائیں"
+                app:fab_size="mini"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fbtn_font_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:fab_label="فونٹ تبدیل کریں"
+                app:fab_size="mini"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fbtn_font_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:fab_label="فونٹ کا سائز تبدیل کریں"
+                app:fab_size="mini"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fbtn_last_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:visibility="gone"
+                app:fab_label="آخری صفحے پر جائیں"
+                app:fab_size="mini"/>
+
+
+
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+        <LinearLayout
+            android:id="@+id/spin_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/goto_page_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="30sp"
+                android:dropDownWidth="50sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btn_prev"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:background="@drawable/bg_et"
+                android:text="Prev"/>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_et"
+                android:text="Next"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
